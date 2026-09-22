@@ -1,0 +1,16 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+!.env.local.example
+!.env.example
+
+# OS/editor noise
+.DS_Store

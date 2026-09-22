@@ -1,0 +1,61 @@
+# Dependencies / build outputs
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Python runtime / caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+.python-version
+pip-wheel-metadata/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+*.pem
+*.key
+*.crt
+
+# Databases / local data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Project runtime / generated content
+uploads/
+generated/
+output/
+qa_fsd/
+tmp/
+work/
+logs/
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+
